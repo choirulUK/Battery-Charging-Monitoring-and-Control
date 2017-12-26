@@ -1,6 +1,12 @@
 # Battery-Charging-Monitoring-and-Control
 Temperature, Current, and Voltage Monitoring. Auto on/off
 
+Controller:
+- ATmega328 - Arduino Uno Module
+
+IDE:
+- Arduino IDE
+
 Sensor:
 1. Suhu     : DS18b20
 2. Arus     : ACS712 5A
