@@ -1,0 +1,17 @@
+Cara Penggunaan:
+
+untuk LCD harus di scan dulu addressnya:
+1. Cari library I2CScanner untuk arduino
+2. Buka file I2CScanner.ino
+3. pastikan kabel sudah terpasang antara arduino dan I2c LCD, SDA dan SCL (A4 dan A5 untuk arduino Uno)
+4. compile dan upload program I2CScanner.ino ke arduino
+5. buka serial monitor
+6. cek address yang tersedia, itu merupakah address dari LCD
+
+7. buka program sketch_jun13a.ino
+8. cari baris :
+	//definisi alamat LCD
+	#define alamatLCD 0x27
+
+9. ganti alamat address sesuai dengan langkah nomer 5.
+10. compile dan upload program ke arduino
