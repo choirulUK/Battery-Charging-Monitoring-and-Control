@@ -1,4 +1,6 @@
 # Battery-Charging-Monitoring-and-Control
+Contact: choirul.kusumohadi@gmail.com
+
 Temperature, Current, and Voltage Monitoring. Auto on/off
 
 Controller:
